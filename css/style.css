@@ -693,6 +693,7 @@ img {
 
 .in-form:hover, .in-form:focus {
     border: 1px solid var(--link);
+    color: var(--link);
 }
 
 .send-form {
