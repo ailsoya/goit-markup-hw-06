@@ -314,7 +314,7 @@
                     <p class="mediatec">Subscribe</p>
                     <form>
                         <label>
-                            <input type="email" name="email" placeholder="E-mail" class="email-inp">
+                            <input type="email" name="email-sub" placeholder="E-mail" class="email-inp">
                         </label>
                         <button type="submit" class="sub-button">Subscribe <svg class="sub-svg" width="24" height="20"><use href="./images/icons.svg#icon-subscribe"></use></svg></button>
                     </form>
@@ -326,6 +326,22 @@
                 <button type="button" class="closing" data-modal-close>
                     <svg class="modal-but" width="8" height="8"><use href="./images/icons.svg#close-black"></use></svg>
                 </button>
+                <p>Leave your contacts and we will call you back</p>
+                <form>
+                    <label>
+                        Name
+                        <input type="text" name="name">
+                    </label>
+                    <label>
+                        Phone
+                        <input type="tel" name="phone">
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email-modal">
+                    </label>
+                    <button type="submit">Send</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>

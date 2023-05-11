@@ -455,7 +455,7 @@ body {
     border: none;
     padding: 8px 24px;
     align-items: center;
-    gap: 16px;
+    margin-right: 16px;
 }
 
 .email-inp {
