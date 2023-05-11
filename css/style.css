@@ -462,7 +462,7 @@ body {
     background-color: var(--spanny);
     color: var(--background);
     border: 1px solid var(--background);
-    padding: 8px 16px;
+    align-items: center;
     width: 264px;
     height: 40px;
     border-radius: 4px;
@@ -640,18 +640,40 @@ img {
     top: 50%;
     left: 50%;
     padding: 24px;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
     transform: translate(-50%, -50%);
     border-radius: 4px;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-label {
+.leave-comm {
+    margin: 0 0 16px 0;
+    padding-top: 48px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--spanny);
+}
+
+.form-label {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
     color: var(--icon-sect-two);
     font-size: 12px;
+}
+
+.in-form {
+    background-color: #fcfcfc;
+    color: var(--spanny);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 360px;
+    border-radius: 4px;
 }
 
 .closing {
