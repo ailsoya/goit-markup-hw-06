@@ -441,6 +441,20 @@ body {
     fill: var(--cloud);
 }
 
+.sub-svg {
+    fill: var(--background);
+}
+
+.sub-button {
+    background-color: var(--link);
+    color: var(--background);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+}
+
 .paragraphtwo {
     margin: 0;
     font-size: 16px;
