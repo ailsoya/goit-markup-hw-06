@@ -671,8 +671,6 @@ img {
 }
 
 .form-label {
-    display: flex;
-    flex-direction: column;
     color: var(--icon-sect-two);
     font-size: 12px;
 }
