@@ -667,12 +667,12 @@ img {
 
 .form {
     justify-content: center;
+    gap: 8px;
 }
 
 .form-label {
     display: flex;
     flex-direction: column;
-    margin-bottom: 8px;
     color: var(--icon-sect-two);
     font-size: 12px;
 }
