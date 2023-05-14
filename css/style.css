@@ -640,7 +640,7 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    padding: 24px;
+    padding: 72px 24px 24px 24px;
     display: block;
     flex-direction: column;
     justify-content: center;
@@ -652,13 +652,16 @@ img {
 
 .leave-comm {
     margin: 0 0 16px 0;
-    padding-top: 48px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--spanny);
+}
+
+.form {
+    justify-content: center;
 }
 
 .form-label {
