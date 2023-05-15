@@ -695,12 +695,12 @@ img {
 .modal-icon {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 16px;
     transform: translateY(-50%);
-    background-color: green;
+    color: var(--spanny);
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
 }
 
 .modicon {
