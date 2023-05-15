@@ -758,6 +758,12 @@ img {
     
 }
 
+.checkbox {
+    font-size: 12px;
+    color: #8E8F99;
+    letter-spacing: 0.04em;
+}
+
 .closing {
     position: absolute;
     top: 24px;
