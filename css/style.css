@@ -441,6 +441,7 @@ body {
 
 .sub-svg {
     fill: var(--background);
+    margin-left: 16px;
 }
 
 .sub-button {
