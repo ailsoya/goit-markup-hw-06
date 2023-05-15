@@ -655,6 +655,11 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.section {
+    position: relative;
+    margin-bottom: 26px;
+}
+
 .leave-comm {
     margin: 0 0 16px 0;
     font-weight: 500;
@@ -667,15 +672,39 @@ img {
 
 .form {
     justify-content: center;
-    gap: 8px;
+    align-items: center;
 }
 
 .form-label {
     color: var(--icon-sect-two);
     font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+}
+
+.text-label {
+    color: var(--icon-sect-two);
+    font-size: 12px;
+    position: absolute;
+    top: -22px;
+    left: 0;
+}
+
+.modal-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: green;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
 }
 
 .in-form {
+    position: relative;
     background-color: #fcfcfc;
     color: var(--spanny);
     border: 1px solid rgba(46, 47, 66, 0.4);

@@ -328,22 +328,27 @@
                 </button>
                 <p class="leave-comm">Leave your contacts and we will call you back</p>
                 <form class="form">
-                    <label class="form-label">
-                        Name
-                        <input type="text" name="name" class="in-form" placeholder="Text input">
-                    </label>
-                    <label class="form-label">
-                        Phone
-                        <input type="tel" name="phone" class="in-form">
-                    </label>
-                    <label class="form-label">
-                        Email
-                        <input type="email" name="email-modal" class="in-form">
-                    </label>
-                    <label class="form-label">
-                        Comment
+                    <div class="section">
+                        <input type="text" name="name" placeholder=" " class="in-form" />
+                        <label class="form-label">Name</label>
+                        <span class="modal-icon">
+                            <svg class="modicon" width="12" height="12"><use href="./images/icons.svg#icon-name"></use></svg>
+                        </span>
+                    </div>
+                    <div class="section">
+                        <input type="tel" name="phone" placeholder=" " class="in-form" />
+                        <label class="form-label">Phone</label>
+                        <span class="modal-icon"></span>
+                    </div>
+                    <div class="section">
+                        <input type="email" name="email-modal" placeholder=" " class="in-form" />
+                        <label class="form-label">Email</label>
+                        <span class="modal-icon"></span>
+                    </div>
+                    <div class="section">
                         <textarea name="comment" placeholder="Text input" class="in-forme"></textarea>
-                    </label>
+                        <label class="text-label">Comment</label>
+                    </div>
                     <input type="checkbox" name="confidential">
                     <label>I accept the terms and conditions of the Privacy Policy</label>
                     <button type="submit" class="send-form">Send</button>
