@@ -699,8 +699,6 @@ img {
     transform: translateY(-50%);
     color: var(--spanny);
     display: inline-block;
-    width: 18px;
-    height: 18px;
 }
 
 .modicon {
