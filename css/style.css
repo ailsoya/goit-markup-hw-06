@@ -441,6 +441,7 @@ body {
 
 .that {
     display: flex;
+    gap: 24px;
 }
 
 .sub-svg {
@@ -476,7 +477,6 @@ body {
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    margin-right: 24px;
 }
 
 .email-inp::placeholder {
