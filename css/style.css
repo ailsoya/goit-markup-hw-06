@@ -663,7 +663,7 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section {
+.ok_its_label {
     position: relative;
     margin-bottom: 8px;
 }
@@ -709,7 +709,7 @@ img {
     height: 40px;
     border-radius: 4px;
     padding-left: 40px;
-    align-items: center;
+    outline: none;
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -726,6 +726,7 @@ img {
     border-radius: 4px;
     padding: 8px 16px;
     resize: none;
+    outline: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -750,7 +751,7 @@ img {
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    transition-property: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .send-form:hover, .send-form:focus {
