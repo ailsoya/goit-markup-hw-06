@@ -476,6 +476,13 @@ body {
     margin-right: 24px;
 }
 
+.email-inp::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: var(--background);
+}
+
 .paragraphtwo {
     margin: 0;
     font-size: 16px;
@@ -683,12 +690,11 @@ img {
     top: 50%;
     left: 16px;
     transform: translateY(-50%);
-    color: var(--spanny);
     display: inline-block;
 }
 
 .modicon {
-    fill: currentColor;
+    fill: var(--spanny);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
