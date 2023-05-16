@@ -783,6 +783,10 @@ img {
     letter-spacing: 0.04em;
 }
 
+.checkbox a {
+    color: #4D5AE5;
+}
+
 .closing {
     position: absolute;
     top: 24px;
