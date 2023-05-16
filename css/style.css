@@ -722,6 +722,12 @@ img {
     letter-spacing: 0.04em;
 }
 
+.sendsend {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .send-form {
     width: 169px;
     height: 56px;
