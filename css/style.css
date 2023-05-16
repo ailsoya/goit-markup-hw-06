@@ -764,21 +764,17 @@ img {
     
 }
 
-.check-conf {
-    margin: 16px 0 24px;
-    display: flex;
-    align-items: center;
-}
-
 .confidential {
-    width: 16px;
-    height: 16px;
-    margin-right: 8px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: absolute;
 }
 
 .checkbox {
+    margin: 16px 0 24px;
+    display: flex;
+    align-items: center;
     font-size: 12px;
     color: #8E8F99;
     letter-spacing: 0.04em;
@@ -786,6 +782,22 @@ img {
 
 .checkbox a {
     color: #4D5AE5;
+}
+
+.fakie {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+}
+
+.confidential:checked + .fakie {
+    border-color: transparent;
+    background-color: var(--link-cont);
+    background-image: url('../images/icons.svg#accept-icon');
+    background-size: contain;
+    background-origin: border-box;
 }
 
 .closing {
