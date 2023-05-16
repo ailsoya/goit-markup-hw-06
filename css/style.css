@@ -791,12 +791,13 @@ img {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    fill: #f4f4fd;
 }
 
 .confidential:checked + .fakie {
     border-color: transparent;
     background-color: var(--link-cont);
-    background-image: url('../images/icons.svg#accept-icon');
+    background-image: url("../images/icons.svg#accept-icon");
     background-size: contain;
     background-origin: border-box;
 }
