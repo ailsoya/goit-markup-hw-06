@@ -710,6 +710,10 @@ img {
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.in-form:focus + .modicon{
+    fill: #4D5AE5;
+}
+
 .in-form:focus {
     border: 1px solid #4D5AE5;
 }
@@ -725,6 +729,10 @@ img {
     resize: none;
     outline: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.in-forme:focus {
+    border: 1px solid #4D5AE5;
 }
 
 .in-forme::placeholder {
